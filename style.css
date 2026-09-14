@@ -1,12 +1,12 @@
 h1 {
-  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'arial';
   font-size: 30px;
   /* color: #764646; */
   text-align: center;
 }
 
 h2 {
-  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'arial';
   font-size: 24px;
   /* color: #764646; */
   text-align: center;
@@ -17,35 +17,21 @@ menu-container {
   margin-top: 20px;
 }
 
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 button {
-  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'arial';
   font-size: 16px;
-  /* background-color: #764646;
-  color: beige;
-  border: none;
-  padding: 10px 20px;
-  text-align: center; */
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  /* background-color: #764646; */
+  /* color: beige; */
+  /* border: none; */
+  /* padding: 10px 20px; */
+  /* text-align: center; */
+  /* text-decoration: none;
+  display: inline-block; */
+  /* margin: 4px 2px; */
   cursor: pointer;
 }
 p {
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'arial';
     font-size: 20px;
     /* color: #764646; */
     text-align: center;
@@ -57,4 +43,19 @@ img {
   display: block;
   margin: auto;
   width: 50%;
+}
+
+/*
+Source - https://stackoverflow.com/a/43966051
+Posted by Vadim Ovchinnikov
+Retrieved 2026-09-14, License - CC BY-SA 3.0
+*/
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item + .flex-item {
+  margin-left: 10px;
 }
