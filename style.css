@@ -66,3 +66,17 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
   bottom: 0;
   z-index: -1;
 }
+
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: auto;
+  }
+}
