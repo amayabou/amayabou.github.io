@@ -59,3 +59,10 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
 .flex-item + .flex-item {
   margin-left: 10px;
 }
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
