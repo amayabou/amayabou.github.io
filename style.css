@@ -11,12 +11,10 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
-
 h1 {
   font-family: 'garamond';
   font-size: 30px;
-  /* color: #764646; */
+  color: beige;
   text-align: left;
   position: absolute;
   top: 20px;
@@ -26,7 +24,7 @@ h1 {
 h2 {
   font-family: 'garamond';
   font-size: 24px;
-  /* color: #764646; */
+  color: beige;
   text-align: center;
 }
 
@@ -50,7 +48,7 @@ button {
 p {
     font-family: 'garamond';
     font-size: 20px;
-    /* color: #764646; */
+    color: beige;
     text-align: center;
 }
 
