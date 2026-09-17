@@ -61,13 +61,17 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
 }
 
 .back-video {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
+  width: auto;
+  height: auto;
   z-index: -1;
+  object-fit: cover;
+  rotate: 90deg;
 }
 
-@media (min-aspect-ratio: 16/9){
+/* @media (min-aspect-ratio: 16/9){
   .back-video{
     width: auto;
     height: auto;
@@ -79,4 +83,4 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
     width: auto;
     height: auto;
   }
-}
+} */
