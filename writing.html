@@ -8,49 +8,53 @@
     <body>
       <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
       <!-- link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
-      <h1>Amaya Boulanger</h1>
-      <hr>
-      <section id="navigation">
-        <!-- Buttons -->
-        <div class = "flex">
-          <form action="index.html" class = "flex-item">
-            <button class = "button">home</button>
+      <div class="page-wrapper">
+        <form action ="index.html"class = "flex-item">
+            <button class = "button" style="font-family: 'garamond'; font-size: 30px; font-weight: bold; color: beige; text-align: left; position: absolute; left: 30px; top: 40px;">Amaya Boulanger</button>
           </form>
-          <form action="photography.html" class = "flex-item">
-            <button class = "button">photography</button>
-          </form>
-          <form action="resume.html" class = "flex-item">
-            <button class = "button">resume</button>
-          </form>
-          <form action="writing.html" class = "flex-item">
-            <button class = "button">writing</button>
-          </form>
-          <form action="about.html" class = "flex-item">
-            <button class = "button">about</button>
-          </form>
-        </div>
-      </section>
-      <div>
         <hr>
+        <section id="navigation">
+          <!-- Buttons -->
+          <div style="position: absolute; left: 30px; top: 95px;" class = "flex">
+            <form action="about.html" class = "flex-item">
+              <button class = "button">about/cv</button>
+            </form>
+            <form action="writing.html" class = "flex-item">
+              <button class = "button">writing</button>
+            </form>
+            <form action="photography.html" class = "flex-item">
+              <button class = "button">photography</button>
+            </form>
+            <form action="archive.html" class = "flex-item">
+              <button class = "button">archive</button>
+            </form>
+          </div>
+        </section>
+      <div>
         <br>
       </div>
-      <section id="intro">
-        <h2>Writing</h2>
-        <p>Unthrifty loveliness why dost thou spend,
-            Upon thy self thy beauty's legacy?
-            Nature's bequest gives nothing but doth lend,
-            And being frank she lends to those are free:
-            Then beauteous niggard why dost thou abuse,
-            The bounteous largess given thee to give?
-            Profitless usurer why dost thou use
-            So great a sum of sums yet canst not live?
-            For having traffic with thy self alone,
-            Thou of thy self thy sweet self dost deceive,
-            Then how when nature calls thee to be gone,
-            What acceptable audit canst thou leave?
-            Thy unused beauty must be tombed with thee,
-            Which used lives th' executor to be.
-        </p>
-      </section>
+      <details class="project-bar">
+          <summary>
+            <span class="project-title" style="font-family: 'garamond'; color: beige;">Honors Project</span>
+            <span class="project-arrow" style="font-family: 'garamond'; color: beige;">⌄</span>
+          </summary>
+          <div class="project-details">
+            <div class="project-links">
+              <a href="/projects/Boulanger_Amaya_HonorsProject.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link">
+                <i class="fa fa-file-pdf-o"></i> Open PDF
+              </a>
+            </div>
+            <div class="project-pdf-container">
+              <iframe
+                src="/projects/Boulanger_Amaya_HonorsProject.pdf"
+                class="project-pdf"
+                title="HonorsProject">
+              </iframe>
+            </div>
+          </div>
+        </details>
     </body>
 </html>
