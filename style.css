@@ -79,6 +79,7 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
   height: 100%;
   z-index: -1;
   rotate: 180deg;
+  transform: scale(-1, 1);
 }
 
 /* @media (min-aspect-ratio: 16/9){
