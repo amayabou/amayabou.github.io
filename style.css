@@ -67,8 +67,7 @@ Retrieved 2026-09-14, License - CC BY-SA 3.0
   width: 100%;
   height: 100%;
   z-index: -1;
-  object-fit: cover;
-  rotate: 0deg;
+  rotate: 180deg;
 }
 
 /* @media (min-aspect-ratio: 16/9){
